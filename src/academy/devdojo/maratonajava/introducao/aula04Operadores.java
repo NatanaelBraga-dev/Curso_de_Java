@@ -47,5 +47,19 @@ public class aula04Operadores {
 
         boolean isPlayStationCincoCompravel = valorTotalContaCorrente > valorPlayStation || valorTotalContaPoupança > valorPlayStation;
         System.out.println("isPlayStationCincoCompravel ? " + isPlayStationCincoCompravel);
+
+        // = += -= *= /= %= (operadores de atribuição)
+
+        double bonus = 1800;
+        bonus += 1000;
+        bonus *= 2;
+        System.out.println(bonus);
+
+        //
+        int contador = 0;
+        contador++; //incrementa
+        System.out.println(contador);
+        contador--;
+        System.out.println(contador);
     }
 }
