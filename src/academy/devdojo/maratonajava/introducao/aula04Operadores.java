@@ -31,5 +31,21 @@ public class aula04Operadores {
          */
 
         // && (AND)  || (or) !
+
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println("isDentroDaLeiMaiorQueTrinta ? " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta ? " + isDentroDaLeiMenorQueTrinta);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupança = 10000;
+
+        float valorPlayStation = 5000F;
+
+        boolean isPlayStationCincoCompravel = valorTotalContaCorrente > valorPlayStation || valorTotalContaPoupança > valorPlayStation;
+        System.out.println("isPlayStationCincoCompravel ? " + isPlayStationCincoCompravel);
     }
 }
