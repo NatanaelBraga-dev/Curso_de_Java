@@ -14,9 +14,11 @@ public class atividadeCarro {
         bmw.modelo = "coupe";
         bmw.ano = 2021;
 
-        System.out.println("Carro 1 \n");
-        System.out.println(fiat.nome + " "+ fiat.modelo + " " + fiat.ano);
-        System.out.println("Carro 2 \n");
+        fiat = bmw;
+
+        System.out.println("Carro 1");
+        System.out.println(fiat.nome + " "+ fiat.modelo + " " + fiat.ano +"\n");
+        System.out.println("Carro 2");
         System.out.println(bmw.nome + " " +  bmw.modelo + " " +  bmw.ano);
     }
 }
