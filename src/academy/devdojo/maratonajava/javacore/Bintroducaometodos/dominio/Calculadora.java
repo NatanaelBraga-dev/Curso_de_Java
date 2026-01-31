@@ -13,4 +13,19 @@ public class Calculadora {
     public void multiplicaDoisNumeros(int num, float num2){
         System.out.println(num * num2);
     }
+
+    public double divideDoisNumeros(double num, double num2){
+        if (num2 == 0){
+            return 0;
+        }
+        return num/num2;
+    }
+
+    public double divideDoisNumeros02(double num, double num2){
+        if(num2 != 0){
+            return num/num2;
+        }
+        System.out.println("Não existe divisão por 0");
+        return 0;
+    }
 }
