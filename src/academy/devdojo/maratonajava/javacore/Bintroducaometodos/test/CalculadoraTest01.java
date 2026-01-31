@@ -9,6 +9,6 @@ public class CalculadoraTest01 {
         System.out.println("Finalizando");
 
         calculadora.subtraiDoisNumeros();
-
+        calculadora.multiplicaDoisNumeros(10 , 20.5F);
     }
 }
