@@ -5,13 +5,13 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.Funciona
 public class Exercicio {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.nome = "Natanael Braga";
-        funcionario.idade = 19;
+        funcionario.setNome("Natanael Braga");
+        funcionario.setIdade(19);
 
-        funcionario.salarios = new double[]{1000,1000,3000};
+        funcionario.setSalarios(new double[]{1000,1000,3000});
 
         funcionario.infoDados();
-        funcionario.mediaSalarios(funcionario.salarios);
-        System.out.println(funcionario.mediaSalarios(funcionario.salarios));
+        funcionario.mediaSalarios();
+        System.out.println(funcionario.mediaSalarios());
     }
 }
