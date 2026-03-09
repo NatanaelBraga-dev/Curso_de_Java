@@ -10,6 +10,11 @@ public class Seminario {
         this.titulo = nomeSeminario;
     }
 
+    public Seminario(String nomeSeminario, Local local) {
+        this.titulo = nomeSeminario;
+        this.local = local;
+    }
+
     public void imprimeDadosSeminario(){
         System.out.println("INFORMAÇÕES SOBRE O SEMINÁRIO");
         System.out.println("--------------------------------");

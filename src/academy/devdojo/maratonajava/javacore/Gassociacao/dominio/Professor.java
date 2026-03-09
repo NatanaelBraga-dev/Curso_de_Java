@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Gassociacao.dominio;
 
-import java.sql.SQLOutput;
-
 public class Professor {
     private String nome;
     private String especialidade;
@@ -25,11 +23,9 @@ public class Professor {
             for(Seminario seminario: seminarios){
                 System.out.println( seminario.getTitulo());
             }
-
         }else {
             System.out.println("Esse professor não tem seminários");
         }
-
     }
 
     public String getEspecialidade() {

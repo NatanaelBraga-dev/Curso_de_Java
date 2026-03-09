@@ -7,11 +7,11 @@ import academy.devdojo.maratonajava.javacore.Gassociacao.dominio.Seminario;
 
 public class GerenciadorDeSeminarioTest01 {
     public static void main(String[] args) {
-        Seminario seminario = new Seminario("Seminário de matemática");
         Aluno aluno = new Aluno("Natanael", 18);
         Aluno aluno2 = new Aluno("Alberto", 29);
         Professor professor = new Professor("Daniel", "Matemática");
         Local local = new Local("Avenida Franisco Sales 2229");
+        Seminario seminario = new Seminario("Seminário de matemática", local);
         Seminario seminario2 = new Seminario("Seminário de física");
 
         Aluno [] alunos = {aluno, aluno2};
