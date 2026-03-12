@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Isobrescrita.dominio;
 
-import javax.print.DocFlavor;
-
 public class Anime extends Object{
     private String nome;
 
